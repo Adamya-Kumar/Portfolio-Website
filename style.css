@@ -353,8 +353,9 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   place-items: center;
-  gap: 3rem;
-  row-gap: 5rem;
+  gap: 8rem;
+  row-gap: 10rem;
+  
 }
 
 .project-card {
@@ -381,7 +382,7 @@ section {
 }
 
 .project-card img {
-  max-width: 400px;
+  max-width: 300px;
   border-radius: 1.5rem;
   object-fit: cover;
 }
