@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "https://mail.google.com/mail/?view=cm&fs=1&to=adamyakumar2307@gmail.com";
   });
 
-  let typed = new Typed(".auto-type", {
+  let typed = new typed(".auto-type", {
     strings: [
       "Software Engineer",
       "MERN stack developer",
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
       message: feedback,
     };
 
-    emailjs
+    email
       .send("service_iv9kmmk", "template_lwzzjra", templateParams)
       .then((response) => {
         alert("Feedback sent successfully!");
